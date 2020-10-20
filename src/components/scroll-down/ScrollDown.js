@@ -12,7 +12,7 @@ const MyScroll = styled.div`
   font-weight: bold;
   text-shadow: 1px 1px #45a29e;
   color: #fff;
-  animation: 2s linear 0s infinite normal none running MoveUpDown;
+  animation: 3s linear 1s infinite normal none running MoveUpDown;
   .turn {
       font-size: 30px;
     cursor: pointer;
