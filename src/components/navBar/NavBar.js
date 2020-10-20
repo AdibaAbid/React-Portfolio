@@ -8,7 +8,7 @@ import "./NavBar.css";
     return (
         <>
             <Navbar collapseOnSelect expand="md"
-            Fixed="top"
+            fixed="top"
              className="animate-navbar nav-theme justify-content-between"
              variant="dark">
                 <Navbar.Brand href="#home">

@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
 import NavBar from "./components/navBar/NavBar";
+import CustomCarousel from "./components/carousel/Carousal";
+import TitleMessage from "./components/title-message/TitleMessage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ position: "relative" }}>
       <NavBar/>
-     My Prtfolio
+      <CustomCarousel/>
+      <TitleMessage/>
+
     </div>
   );
 }
