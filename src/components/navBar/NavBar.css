@@ -20,6 +20,11 @@
   @media only screen and (max-width: 786px){
     .nav-theme{
       height: auto !important;
+      width: 100%;
+    }
+    .logo{
+      width: 43%;
+    margin-left: 22px;
     }
   }
   

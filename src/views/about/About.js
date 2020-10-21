@@ -20,8 +20,8 @@ const About = () => {
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded tex align-text-left " style={{marginRight:'-100px'}} >
-                <br />I am a Web Developer with React.js, Redux, Cloud Firestore, HTML and CSS. currently learning React Native for Mobile Application.
+              <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
+                <br />Web Developer with expertise of React.js, Redux, Cloud Firestore, HTML and CSS. currently learning React Native for Mobile Application.
                 <br /><br/>
                 I am passionate programmer and a learner, born and brought up in Pakistan.Currently, I am enrolled in Tech Karo - Web Development Program "Conducted by CIRCLE".
                 <br />

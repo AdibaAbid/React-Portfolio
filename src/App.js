@@ -6,12 +6,16 @@ import TitleMessage from "./components/title-message/TitleMessage";
 import About from "./views/about/About";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
+import Bounce from 'react-reveal/Bounce';
 import Container from "react-bootstrap/Container";
+import Skills from "./views/skills/Skills";
+import PreLoader from './loader/Loader'
 
 
 function App() {
   return (
     <div className="App" style={{ position: "relative" }}>
+      <PreLoader/>
       <NavBar/>
       <CustomCarousel/>
       <TitleMessage/>
@@ -31,7 +35,17 @@ function App() {
           </div>
         </Parallax>
       </div>
-     
+      <div>
+  
+          <div>
+            <Container className="container-box rounded">
+              <Bounce  right duration={2000}>
+              <Skills/>
+              </Bounce >
+            </Container>
+          </div>
+      </div>
+    
     </div>
   );
 }
