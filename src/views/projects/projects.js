@@ -31,13 +31,13 @@ const customTheme = createTheme(themes.default, {
     backgroundColor: '#efefef',
   },
   date: {
-    backgroundColor: 'rebeccapurple',
+    backgroundColor: '#ec4b4f',
   },
   marker: {
-    borderColor: 'rebeccapurple',
+    borderColor: '#070d59',
   },
   timelineTrack: {
-    backgroundColor: 'rebeccapurple',
+    backgroundColor: '#ec4b4f',
   },
 });
 
@@ -165,7 +165,7 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Finance app to track your daily expenses keep to up to date. User friendly and easy to use.
+                        <strong>Description:</strong> This is a Finance app to track your daily expenses and keep to up to date. User friendly and easy to use.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -265,7 +265,7 @@ const ProjectTimeline = () => {
           <ImageEvent
             date="9th June, 2020"
             className="text-center"
-            text="Quizz App"
+            text="Quiz App"
             src={QuizApp}
             alt="Quizz App"
           >
@@ -283,12 +283,12 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Basic Quizz app, to test your computer knowledge. Also, The question and its option changed in every refresh.
+                        <strong>Description:</strong> Basic Quiz app, to test your computer knowledge. Also, The question and its options changed in every page reload.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Test your basic computer knowledge </li>
-                          <li>API used for computer science quizz</li>
+                          <li>API used for computer science quiz</li>
                           <li>Powered by JavaScript, HTML and CSS.</li>
                         </ul>
                         <hr />

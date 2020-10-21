@@ -12,15 +12,15 @@ import Container from "react-bootstrap/Container";
 import Skills from "./views/skills/Skills";
 import Blog from "./views/blog-section/BlogSection";
 import Projects from "./views/projects/projects";
+import Contact from "./views/contact/Contact";
+import Footer from './components/footer/Footer'
 
-
-import PreLoader from './loader/Loader'
 
 
 function App() {
+
   return (
     <div className="App" style={{ position: "relative" }}>
-      <PreLoader />
       <NavBar />
       <CustomCarousel />
       <TitleMessage />
@@ -52,8 +52,17 @@ function App() {
 
         <div>
           <Container className="container-box rounded">
+            <Slide bottom duration={3000}>
+              <hr />
+              <Projects />
+            </Slide >
+          </Container>
+        </div>
+
+        <div>
+          <Container className="container-box rounded">
             <Slide left duration={2000}>
-              <hr/>
+              <hr />
               <Blog />
             </Slide >
           </Container>
@@ -61,15 +70,18 @@ function App() {
       </div>
 
       <div>
-          <Container className="container-box rounded">
-            <Slide bottom duration={4000}>
-              <hr/>
-              <Projects/>
-            </Slide >
-          </Container>
-        </div>
-  
+        <Container className="container-box rounded">
+          <Fade bottom duration={2000}>
+            <hr />
+            <Contact />
+          </Fade >
+        </Container>
+      </div>
+      <hr />
+      <Footer />
+
     </div>
+
   );
 }
 
