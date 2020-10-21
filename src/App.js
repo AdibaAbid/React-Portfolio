@@ -52,7 +52,7 @@ function App() {
 
         <div>
           <Container className="container-box rounded">
-            <Slide bottom duration={3000}>
+            <Slide bottom duration={2000}>
               <hr />
               <Projects />
             </Slide >

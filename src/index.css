@@ -10,12 +10,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Karla", sans-serif;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     -225deg,
     #22e1ff 0%,
     #1d8fe1 48%,
     #625eb1 100%
-  );
+  ); */
+  /* background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light; */
+ background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+ /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
   /* Add the blur effect */
 
   /* Full height */
