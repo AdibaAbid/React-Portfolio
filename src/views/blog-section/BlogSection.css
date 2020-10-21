@@ -1,0 +1,18 @@
+
+  .image-resize{
+      height: 160px;
+      width: 100%;
+  }
+  .card-resize{
+      height: 340px;
+      width: 240px;
+  }
+  
+  .style {
+    font-size: 16px;
+    color: black;
+  }
+  .card-title{
+      font-size: 1em;
+  }
+  

@@ -7,18 +7,21 @@ import About from "./views/about/About";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 import Bounce from 'react-reveal/Bounce';
+import Slide from 'react-reveal/Slide';
 import Container from "react-bootstrap/Container";
 import Skills from "./views/skills/Skills";
+import Blog from "./views/blog-section/BlogSection";
+
 import PreLoader from './loader/Loader'
 
 
 function App() {
   return (
     <div className="App" style={{ position: "relative" }}>
-      <PreLoader/>
-      <NavBar/>
-      <CustomCarousel/>
-      <TitleMessage/>
+      <PreLoader />
+      <NavBar />
+      <CustomCarousel />
+      <TitleMessage />
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
@@ -36,16 +39,25 @@ function App() {
         </Parallax>
       </div>
       <div>
-  
-          <div>
-            <Container className="container-box rounded">
-              <Bounce  right duration={2000}>
-              <Skills/>
-              </Bounce >
-            </Container>
-          </div>
+
+        <div>
+          <Container className="container-box rounded">
+            <Bounce right duration={2000}>
+              <Skills />
+            </Bounce >
+          </Container>
+        </div>
+
+        <div>
+          <Container className="container-box rounded">
+            <Slide left duration={2000}>
+              <hr/>
+              <Blog />
+            </Slide >
+          </Container>
+        </div>
       </div>
-    
+
     </div>
   );
 }
