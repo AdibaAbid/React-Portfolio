@@ -132,12 +132,6 @@ const ProjectTimeline = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="#"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
               </div>
             </div>
           </ImageEvent>
@@ -250,12 +244,6 @@ const ProjectTimeline = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="#"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
               </div>
             </div>
           </ImageEvent>
@@ -357,12 +345,7 @@ const ProjectTimeline = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="#"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
+          
               </div>
             </div>
           </ImageEvent>
@@ -452,12 +435,6 @@ const ProjectTimeline = () => {
                   target="_blank"
                 >
                   SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="#"
-                  target="_blank"
-                >
-                  WATCH VIDEO
                 </UrlButton>
               </div>
             </div>
