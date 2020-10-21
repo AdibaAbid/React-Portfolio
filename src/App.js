@@ -11,6 +11,8 @@ import Slide from 'react-reveal/Slide';
 import Container from "react-bootstrap/Container";
 import Skills from "./views/skills/Skills";
 import Blog from "./views/blog-section/BlogSection";
+import Projects from "./views/projects/projects";
+
 
 import PreLoader from './loader/Loader'
 
@@ -58,6 +60,15 @@ function App() {
         </div>
       </div>
 
+      <div>
+          <Container className="container-box rounded">
+            <Slide bottom duration={4000}>
+              <hr/>
+              <Projects/>
+            </Slide >
+          </Container>
+        </div>
+  
     </div>
   );
 }
