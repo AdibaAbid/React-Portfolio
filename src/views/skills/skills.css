@@ -23,10 +23,10 @@
 
   @media only screen and (max-width: 786px){
     .card-deck{
-      flex-flow: column;
-      justify-content: center;
-      margin-left: 30px;
-      margin-right: 30px;
+      /* flex-flow: column;
+      justify-content: center; */
+      margin: 0 90px 0 90px;
+      flex-direction: column;
     }
   }
   

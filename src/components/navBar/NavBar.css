@@ -23,7 +23,7 @@
       width: 100%;
     }
     .logo{
-      width: 100%;
+    margin-bottom:-32px;
     margin-left: 22px;
     }
   }
