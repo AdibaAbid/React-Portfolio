@@ -1,20 +1,26 @@
 import React from "react";
-import { Timeline, Events, UrlButton, ImageEvent, createTheme, themes } from "@merc/react-timeline";
+import {
+  Timeline,
+  Events,
+  UrlButton,
+  ImageEvent,
+  createTheme,
+  themes
+} from "@merc/react-timeline";
 import Accordion from "react-bootstrap/Accordion";
-import Card from "react-bootstrap/Card"
+import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
 
 //Css file
-import './project.css'
+import "./project.css";
 
-//Projects 
+//Projects
 import ChatKharaMeal from "../../assets/img/projects/ChatKharaMeal-Website.png";
 import ExpenseTracker from "../../assets/img/projects/Expense-TrackerApp.png";
 import MusicList from "../../assets/img/projects/Music-List-App.png";
 import QuizApp from "../../assets/img/projects/QuizzApp-JavaScript.png";
 import EmpolyeeTable from "../../assets/img/projects/Empolyee-table.png";
 import BloodDonateApp from "../../assets/img/projects/blood-donate-app.jpeg";
-
 
 
 
@@ -26,23 +32,22 @@ import L_REACT from "../../assets/img/skills/react.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg"
-
+import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
 
 // Custom timline theme
 const customTheme = createTheme(themes.default, {
   card: {
-    backgroundColor: '#efefef',
+    backgroundColor: "#efefef"
   },
   date: {
-    backgroundColor: '#ec4b4f',
+    backgroundColor: "#ec4b4f"
   },
   marker: {
-    borderColor: '#070d59',
+    borderColor: "#070d59"
   },
   timelineTrack: {
-    backgroundColor: '#ec4b4f',
-  },
+    backgroundColor: "#ec4b4f"
+  }
 });
 
 const ProjectTimeline = () => {
@@ -252,11 +257,15 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is an E-Commerce website of savoury foods, which provides user online food shopping experience with various varieties.
+                        <strong>Description:</strong> This is an E-Commerce
+                        website of savoury foods, which provides user online
+                        food shopping experience with various varieties.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Provide best quality of food in low price rate.</li>
+                          <li>
+                            Provide best quality of food in low price rate.
+                          </li>
                           <li>Powered by Pure JavaScript and CSS</li>
                           <li>Respoisive Design</li>
                         </ul>
@@ -342,7 +351,9 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Finance app to track your daily expenses and keep to up to date. User friendly and easy to use.
+                        <strong>Description:</strong> This is a Finance app to
+                        track your daily expenses and keep to up to date. User
+                        friendly and easy to use.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -454,7 +465,9 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Basic Quiz app, to test your computer knowledge. Also, The question and its options changed in every page reload.
+                        <strong>Description:</strong> Basic Quiz app, to test
+                        your computer knowledge. Also, The question and its
+                        options changed in every page reload.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -528,7 +541,6 @@ const ProjectTimeline = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-          
               </div>
             </div>
           </ImageEvent>
@@ -556,7 +568,9 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> If you are a Music Lover!, then its the best app for you to collect your music collection in one place.
+                        <strong>Description:</strong> If you are a Music Lover!,
+                        then its the best app for you to collect your music
+                        collection in one place.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -614,7 +628,7 @@ const ProjectTimeline = () => {
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/AdibaAbid/Music-List-Appt"
+                  href="https://github.com/AdibaAbid/Music-List-App"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -622,12 +636,10 @@ const ProjectTimeline = () => {
               </div>
             </div>
           </ImageEvent>
-
         </Events>
       </Timeline>
     </div>
-  )
-}
+  );
+};
 
-
-export default ProjectTimeline
+export default ProjectTimeline;

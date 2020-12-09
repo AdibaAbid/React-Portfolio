@@ -1,24 +1,21 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import NavBar from "./components/navBar/NavBar";
 import CustomCarousel from "./components/carousel/Carousal";
 import TitleMessage from "./components/title-message/TitleMessage";
 import About from "./views/about/About";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
-import Bounce from 'react-reveal/Bounce';
-import Slide from 'react-reveal/Slide';
+import Bounce from "react-reveal/Bounce";
+import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import Skills from "./views/skills/Skills";
 import Blog from "./views/blog-section/BlogSection";
 import Projects from "./views/projects/projects";
 import Contact from "./views/contact/Contact";
-import Footer from './components/footer/Footer'
-
-
+import Footer from "./components/footer/Footer";
 
 function App() {
-
   return (
     <div className="App" style={{ position: "relative" }}>
       <NavBar />
@@ -41,21 +38,20 @@ function App() {
         </Parallax>
       </div>
       <div>
-
         <div>
           <Container className="container-box rounded">
-            <Bounce right duration={2000}>
+            <Fade right duration={2000}>
               <Skills />
-            </Bounce >
+            </Fade>
           </Container>
         </div>
 
         <div>
           <Container className="container-box rounded">
-            <Slide bottom duration={2000}>
+            <Slide bottom duration={1000}>
               <hr />
               <Projects />
-            </Slide >
+            </Slide>
           </Container>
         </div>
 
@@ -64,7 +60,7 @@ function App() {
             <Slide left duration={2000}>
               <hr />
               <Blog />
-            </Slide >
+            </Slide>
           </Container>
         </div>
       </div>
@@ -74,14 +70,12 @@ function App() {
           <Fade bottom duration={2000}>
             <hr />
             <Contact />
-          </Fade >
+          </Fade>
         </Container>
       </div>
       <hr />
       <Footer />
-
     </div>
-
   );
 }
 
