@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.f29c885e.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.48483dba.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.48483dba.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.27c1872d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.27c1872d.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.266d4783.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.266d4783.js.map",
-    "static/js/2.621606ce.chunk.js": "/React-Portfolio/static/js/2.621606ce.chunk.js",
-    "static/js/2.621606ce.chunk.js.map": "/React-Portfolio/static/js/2.621606ce.chunk.js.map",
+    "static/js/2.3d967cea.chunk.js": "/React-Portfolio/static/js/2.3d967cea.chunk.js",
+    "static/js/2.3d967cea.chunk.js.map": "/React-Portfolio/static/js/2.3d967cea.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.002a44d6c2a0c23d843717c1e96ede70.js": "/React-Portfolio/precache-manifest.002a44d6c2a0c23d843717c1e96ede70.js",
+    "precache-manifest.aeb0ac71a1bd0a8ef6376869c8fa2745.js": "/React-Portfolio/precache-manifest.aeb0ac71a1bd0a8ef6376869c8fa2745.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/main.f29c885e.chunk.css.map": "/React-Portfolio/static/css/main.f29c885e.chunk.css.map",
-    "static/js/2.621606ce.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.621606ce.chunk.js.LICENSE.txt",
+    "static/js/2.3d967cea.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.3d967cea.chunk.js.LICENSE.txt",
     "static/media/ChatKharaMeal-Website.png": "/React-Portfolio/static/media/ChatKharaMeal-Website.2c685e9d.png",
     "static/media/Empolyee-table.png": "/React-Portfolio/static/media/Empolyee-table.8b3eed34.png",
     "static/media/Expense-TrackerApp.png": "/React-Portfolio/static/media/Expense-TrackerApp.e0d4f383.png",
+    "static/media/Fb-component.png": "/React-Portfolio/static/media/Fb-component.a97c0df0.png",
     "static/media/Music-List-App.png": "/React-Portfolio/static/media/Music-List-App.efc84b72.png",
     "static/media/QuizzApp-JavaScript.png": "/React-Portfolio/static/media/QuizzApp-JavaScript.64293068.png",
     "static/media/background.webp": "/React-Portfolio/static/media/background.bf989778.webp",
@@ -43,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.266d4783.js",
-    "static/js/2.621606ce.chunk.js",
+    "static/js/2.3d967cea.chunk.js",
     "static/css/main.f29c885e.chunk.css",
-    "static/js/main.48483dba.chunk.js"
+    "static/js/main.27c1872d.chunk.js"
   ]
 }
