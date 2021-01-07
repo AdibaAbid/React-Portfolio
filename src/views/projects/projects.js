@@ -21,6 +21,8 @@ import MusicList from "../../assets/img/projects/Music-List-App.png";
 import QuizApp from "../../assets/img/projects/QuizzApp-JavaScript.png";
 import EmpolyeeTable from "../../assets/img/projects/Empolyee-table.png";
 import BloodDonateApp from "../../assets/img/projects/blood-donate-app.jpeg";
+import FbComponent from "../../assets/img/projects/Fb-component.png";
+
 
 
 
@@ -138,6 +140,94 @@ const ProjectTimeline = () => {
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/AdibaAbid/Blood-Donate-App/tree/master"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+          
+        {/* //React FB Component */}
+          <ImageEvent
+            date="10th Sep, 2020"
+            className="text-center"
+            text="FB Component"
+            src={FbComponent}
+            alt="FB Component"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a React based Fb component app in which i used two different libraries. 
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Beginner Level React Project</li>
+                          <li>Powered by React, JS ans CSS </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React Native
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="JavaScript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JavaScript
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://drive.google.com/file/d/1hOq9argdLzZtTWYZDEnqZLzDlp_P3utN/view?usp=sharing"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/AdibaAbid/React-FB-Component"
                   target="_blank"
                 >
                   SOURCE CODE

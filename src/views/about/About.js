@@ -25,10 +25,10 @@ const About = () => {
                 <br /><br/>
                 I am passionate programmer and a learner, born and brought up in Pakistan.Currently, I am enrolled in Tech Karo - Web Development Program "Conducted by CIRCLE".
                 <br />
-                <br />
+                {/* <br />
                 Along with that, I also help people as a COACH on their journey of becoming a professional programmer. 
                 <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                <br /> <br />
+                <br /> <br /> */}
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">

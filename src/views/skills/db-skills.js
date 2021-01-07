@@ -105,12 +105,12 @@ export const skills = {
         imgSrc: L_VERCEL,
         skillName: "Vercel",
       },
-      {
-        link: "https://www.heroku.com/",
-        imgAltText: "Heroku",
-        imgSrc: L_HEROKU,
-        skillName: "Heroku",
-      }
+      // {
+      //   link: "https://www.heroku.com/",
+      //   imgAltText: "Heroku",
+      //   imgSrc: L_HEROKU,
+      //   skillName: "Heroku",
+      // }
     ],
     databases: [
       {
